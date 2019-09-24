@@ -732,7 +732,7 @@ public class ImageListActivity extends Activity implements ImageSizeDialog.Dialo
 					}
 				};
 
-				cm.requestNetwork(requestedNetwork, callback);
+				cm.registerNetworkCallback(requestedNetwork, callback);
 			}
 		} else {
 			mConnectionSwitchEnabled = true;

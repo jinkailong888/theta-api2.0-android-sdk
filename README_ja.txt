@@ -1,7 +1,7 @@
 ﻿==================================================
  README for "RICOH THETA v2 SDK for Android"
 
- Version :0.1.0
+ Version :0.1.1
 ==================================================
 
 このファイルはRICOH THETA v2 SDK for Androidに関する説明文書です。
@@ -44,12 +44,13 @@
 * 開発に必要な環境に関して
 
     [ RICOH THETA Sについて ]
-      以下の条件を満たすRICOH THETA S専用のサンプルアプリケーションです。
+      以下の条件を満たすRICOH THETA S以降の機種専用のサンプルアプリケーションです。
 
       * ハードウェア
-          RICOH THETA S
+          RICOH THETA S以降の機種
       * ファームウェア
-          バージョン 1.11 以上
+          * RICOH THETA S: バージョン 1.11 以上
+          * RICOH THETA SC: すべてのバージョン
           (ファームウェアの確認およびアップデート方法はこちらです： https://theta360.com/ja/support/manual/s/content/pc/pc_09.html )
 
 
@@ -57,10 +58,10 @@
       サンプルアプリケーションは以下の条件で動作確認済みです。
 
       * 動作確認環境
-          Nexus 5
+          Nexus 5X
       * 開発・ビルド環境
-          Android Studio 1.4
-          Android SDK (API Level 21)
+          Android Studio 2.2.3
+          Android SDK (API Level 24)
 
 ----------------------------------------
 
@@ -68,7 +69,7 @@
 
     [ サンプルアプリケーションを動かす場合 ]
         1. ricoh-theta-sample-for-androidv2をプロジェクトとしてAndroid Studioにインポートし、Android端末にビルドしてください。
-        2. RICOH THETA SをAndroid端末とWi-Fiで接続してください。
+        2. RICOH THETA S以降の機種をAndroid端末とWi-Fiで接続してください。
             (使用説明書、カメラとスマートフォンを接続する：https://theta360.com/ja/support/manual/s/content/prepare/prepare_06.html)
         3. サンプルプログラムの内、 ビューア部はOpenGL ES2.0を使用して作成しています。
            動作に際して対応した実機を使用してください。
@@ -111,3 +112,4 @@
 * 更新履歴
 
     2015/12/22 0.1.0 初回リリース
+    2017/02/07 0.1.1 バグ修正

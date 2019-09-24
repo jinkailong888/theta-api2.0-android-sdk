@@ -1,7 +1,7 @@
 ﻿==================================================
  README for "RICOH THETA v2 SDK for Android"
 
- Version :0.1.0
+ Version :0.1.1
 ==================================================
 
 This file is an explanation document for RICOH THETA v2 SDK for Android.
@@ -44,12 +44,13 @@ This file is an explanation document for RICOH THETA v2 SDK for Android.
 * Required environment for development
 
     [About RICOH THETA S]
-      Dedicated sample applications for the RICOH THETA S that meet the following conditions.
+      Dedicated sample applications for the RICOH THETA S or above that meet the following conditions.
 
       * Hardware
-          RICOH THETA S
+          RICOH THETA S or above
       * Firmware
-          Version 1.11 or higher
+          * RICOH THETA S: Version 1.11 or above
+          * RICOH THETA SC: All versions
           (Method for checking and updating the firmware:  https://theta360.com/en/support/manual/s/content/pc/pc_09.html)
 
 
@@ -57,10 +58,10 @@ This file is an explanation document for RICOH THETA v2 SDK for Android.
       Operation of the sample application has been verified under the following conditions.
 
       * Verified operating environment
-          Nexus 5
+          Nexus 5X
       * Development/Build Environment
-          Android Studio 1.4
-          Android SDK (API Level 21)
+          Android Studio 2.2.3
+          Android SDK (API Level 24)
 
 ----------------------------------------
 
@@ -68,7 +69,7 @@ This file is an explanation document for RICOH THETA v2 SDK for Android.
 
     [Operating the Sample Application]
         1. Import ricoh-theta-sample-for-androidv2 as a project into Android Studio, and build it in the Android device.
-        2. Connect the RICOH THETA S to the Android device using Wi-Fi.
+        2. Connect the RICOH THETA S or above to the Android device using Wi-Fi.
             (Usage instructions, connecting the camera to a smartphone: https://theta360.com/en/support/manual/s/content/prepare/prepare_06.html)
         3. Viewer section within the sample program is created using OpenGL ES2.0.
            Use a device that is compatible with the operation.
@@ -111,3 +112,4 @@ This file is an explanation document for RICOH THETA v2 SDK for Android.
 * Update History
 
     12/22/2015 0.1.0 Initial release
+    02/07/2017 0.1.1 Bug fix
